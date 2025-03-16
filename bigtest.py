@@ -1,5 +1,6 @@
 import zeep
 import time
+import sys
 from pathlib import Path
 
 def performBigCheck(naam, bignummer):
@@ -43,9 +44,15 @@ def procesCSV(file):
 
 # Lijst waar medewerkers aan toegevoegd worden als ze geschorst of voorlopig geschorst zijn.
 naughtylist = []
-procesCSV('test.csv')
 
-#Indien er medewerkers in de naughtylist staan, lijst wegschrijven naar een CSV zodat medewerker kan controleren.
+# Verwerk het CSV bestand en voer checkes uit. Het CSV bestand kan via de command line als parameter opgegeven worden. 
+# Indien het script gedraaid wordt zonder parameter, gaat het script uit van een standaard bestandsnaam test.csv
+if len(sys.argv) > 1:
+    procesCSV(str(sys.argv[1]))
+else:
+    procesCSV('test.csv')
+
+# Indien er medewerkers in de naughtylist staan, lijst wegschrijven naar een CSV zodat medewerker kan controleren.
 if len(naughtylist) > 0:
     with open('checklist.csv', 'w') as f:
         for line in naughtylist:
