@@ -12,6 +12,7 @@ Alternatief: geef de naam van het csv bestand met de te checken personen mee als
 Vul het CSV bestand met te controleren medewerkers met het volgende formaat: achternaam;bigregistratienummer.
 Gebruik geen kolomkoppen.
 
+Er zit een 2 seconden vertraging tussen de individuele bevragingen om gedurende tests niet teveel verzoeken achter elkaar bij het BIG register te doen. Deze vertraging kan verwijderd worden.
 # Afhankelijkheden
 Het script maakt gebruik van het externe package zeep voor het aanroepen van de SOAP service. 
 Zie https://docs.python-zeep.org/en/master/index.html voor documentatie. zeep kan via PIP geïnstalleerd worden.
