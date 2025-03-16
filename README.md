@@ -8,8 +8,9 @@ Voor iedere persoon in checklist.csv is er dus een bevinding gedaan. Mogeijke be
 
 # Werking
 Zet een csv bestand genaamd test.csv in dezelfde directory als het python script.
+Alternatief: geef de naam van het csv bestand met de te checken personen mee als commandline parameter. Indien er geen parameter meegegeven wordt, gaat het script uit van een bestand met de naam test.csv.  
 Vul het CSV bestand met te controleren medewerkers met het volgende formaat: achternaam;bigregistratienummer
-Gebruik geen! kolomkoppen.
+Gebruik geen kolomkoppen.
 
 # Afhankelijkheden
 Het script maakt gebruik van het externe package zeep voor het aanroepen van de SOAP service. 
