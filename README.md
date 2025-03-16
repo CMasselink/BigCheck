@@ -12,5 +12,5 @@ Vul het CSV bestand met te controleren medewerkers met het volgende formaat: ach
 Gebruik geen! kolomkoppen.
 
 # Afhankelijkheden
-Het script maakt gebruik van de het externe package zeep voor het aanroepen van de SOAP service. 
+Het script maakt gebruik van het externe package zeep voor het aanroepen van de SOAP service. 
 Zie https://docs.python-zeep.org/en/master/index.html voor documentatie. zeep kan via PIP geïnstalleerd worden.
