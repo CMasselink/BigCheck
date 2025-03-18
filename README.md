@@ -16,3 +16,6 @@ Er zit een 2 seconden vertraging tussen de individuele bevragingen om gedurende 
 # Afhankelijkheden
 Het script maakt gebruik van het externe package zeep voor het aanroepen van de SOAP service. 
 Zie https://docs.python-zeep.org/en/master/index.html voor documentatie. zeep kan via PIP geïnstalleerd worden.
+
+# LET OP!
+Dit script is een hobby project en niet direct geschikt voor productiedoeleinden!!!
