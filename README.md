@@ -18,4 +18,4 @@ Het script maakt gebruik van het externe package zeep voor het aanroepen van de 
 Zie https://docs.python-zeep.org/en/master/index.html voor documentatie. zeep kan via PIP geïnstalleerd worden.
 
 # LET OP!
-Dit script is een hobby project en niet direct geschikt voor productiedoeleinden!!!
+Dit script is een hobby project en niet direct geschikt voor productiedoeleinden!!! Het enige doel was om met de BIG service te kunnen interacteren, er missen allerlei checks en validaties om het script op een veilige manier te kunnen gebruiken.
